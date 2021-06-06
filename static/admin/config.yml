@@ -27,6 +27,18 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
+ - name: "haendler"
+    label: "Händler"
+    folder: "src/pages/haendler"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Beschreibung", name: "description", widget: "text"}
+      - {label: "Produkte", name: "products", widget: "text"}
+      - {label: "Featured Image", name: "featuredimage", widget: image}
+      - {label: "Tags", name: "tags", widget: "list"}
+      
   - name: "pages"
     label: "Pages"
     files:
