@@ -27,7 +27,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
- - name: "haendler"
+  - name: "haendler"
     label: "Händler"
     folder: "src/pages/haendler"
     create: true
